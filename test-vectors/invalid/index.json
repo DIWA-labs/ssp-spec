@@ -1,0 +1,22 @@
+[
+  {
+    "name": "missing-subject",
+    "input": "missing-subject.json",
+    "error": "SKP_REQUIRED_FIELD"
+  },
+  {
+    "name": "payload-value-and-ref",
+    "input": "payload-value-and-ref.json",
+    "error": "SKP_INVALID_PAYLOAD"
+  },
+  {
+    "name": "empty-transition",
+    "input": "empty-transition.json",
+    "error": "SKP_INVALID_TRANSITION"
+  },
+  {
+    "name": "empty-coordinates",
+    "input": "empty-coordinates.json",
+    "error": "SKP_INVALID_ADDRESS"
+  }
+]

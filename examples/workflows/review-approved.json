@@ -1,0 +1,40 @@
+{
+  "skp": "1.0-draft",
+  "id": "urn:uuid:55555555-5555-4555-8555-555555555555",
+  "profile": "urn:skp:profile:core",
+  "semantic_address": {
+    "space": "workflow",
+    "coordinates": [
+      "release",
+      "review"
+    ]
+  },
+  "action": "approves",
+  "subject": {
+    "id": "urn:example:review:31",
+    "type": "review"
+  },
+  "object": {
+    "id": "urn:example:change:88",
+    "type": "change-set"
+  },
+  "transition": {
+    "from": "pending",
+    "to": "approved"
+  },
+  "reach": "project",
+  "payload": {
+    "media_type": "application/json",
+    "value": {
+      "confidence": 0.82
+    }
+  },
+  "result": {
+    "status": "recorded"
+  },
+  "provenance": {
+    "producer": "urn:example:agent:reviewer",
+    "created_at": "2026-08-06T17:00:00Z"
+  },
+  "extensions": {}
+}

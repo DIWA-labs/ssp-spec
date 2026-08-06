@@ -1,0 +1,41 @@
+{
+  "skp": "1.0-draft",
+  "id": "urn:uuid:66666666-6666-4666-8666-666666666666",
+  "profile": "urn:skp:profile:core",
+  "semantic_address": {
+    "space": "simulation",
+    "coordinates": [
+      "world-1",
+      "hex-12",
+      "season-4"
+    ]
+  },
+  "action": "changes",
+  "subject": {
+    "id": "urn:example:hex:12",
+    "type": "place"
+  },
+  "object": {
+    "id": "urn:example:measure:richness",
+    "type": "measure"
+  },
+  "transition": {
+    "from": "0.61",
+    "to": "0.68"
+  },
+  "reach": "local",
+  "payload": {
+    "media_type": "application/json",
+    "value": {
+      "confidence": 0.82
+    }
+  },
+  "result": {
+    "status": "recorded"
+  },
+  "provenance": {
+    "producer": "urn:example:agent:reviewer",
+    "created_at": "2026-08-06T17:00:00Z"
+  },
+  "extensions": {}
+}

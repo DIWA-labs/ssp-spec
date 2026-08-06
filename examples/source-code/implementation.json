@@ -1,0 +1,40 @@
+{
+  "skp": "1.0-draft",
+  "id": "urn:uuid:33333333-3333-4333-8333-333333333333",
+  "profile": "urn:skp:profile:core",
+  "semantic_address": {
+    "space": "source-code",
+    "coordinates": [
+      "src/parser.py",
+      "parse_packet"
+    ]
+  },
+  "action": "implements",
+  "subject": {
+    "id": "urn:example:symbol:parse_packet",
+    "type": "function"
+  },
+  "object": {
+    "id": "urn:example:requirement:core-validation",
+    "type": "requirement"
+  },
+  "transition": {
+    "from": "missing",
+    "to": "implemented"
+  },
+  "reach": "local",
+  "payload": {
+    "media_type": "application/json",
+    "value": {
+      "confidence": 0.82
+    }
+  },
+  "result": {
+    "status": "recorded"
+  },
+  "provenance": {
+    "producer": "urn:example:agent:reviewer",
+    "created_at": "2026-08-06T17:00:00Z"
+  },
+  "extensions": {}
+}

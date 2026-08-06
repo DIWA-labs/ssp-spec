@@ -1,0 +1,9 @@
+[project]
+name = "skp-reference"
+version = "0.0.0"
+description = "Experimental SKP draft-00 reference implementation"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

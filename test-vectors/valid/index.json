@@ -1,0 +1,32 @@
+[
+  {
+    "name": "basic",
+    "input": "examples/basic/basic-packet.json",
+    "valid": true
+  },
+  {
+    "name": "document",
+    "input": "examples/documents/claim-support.json",
+    "valid": true
+  },
+  {
+    "name": "code",
+    "input": "examples/source-code/implementation.json",
+    "valid": true
+  },
+  {
+    "name": "agent",
+    "input": "examples/ai-agents/completion-report.json",
+    "valid": true
+  },
+  {
+    "name": "workflow",
+    "input": "examples/workflows/review-approved.json",
+    "valid": true
+  },
+  {
+    "name": "simulation",
+    "input": "examples/simulations/state-change.json",
+    "valid": true
+  }
+]

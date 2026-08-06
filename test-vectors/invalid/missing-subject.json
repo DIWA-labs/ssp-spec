@@ -1,0 +1,36 @@
+{
+  "skp": "1.0-draft",
+  "id": "urn:uuid:11111111-1111-4111-8111-111111111111",
+  "profile": "urn:skp:profile:core",
+  "semantic_address": {
+    "space": "document",
+    "coordinates": [
+      "manual.md",
+      "section-2"
+    ]
+  },
+  "action": "references",
+  "object": {
+    "id": "urn:example:evidence:9",
+    "type": "evidence"
+  },
+  "transition": {
+    "from": "proposed",
+    "to": "supported"
+  },
+  "reach": "local",
+  "payload": {
+    "media_type": "application/json",
+    "value": {
+      "confidence": 0.82
+    }
+  },
+  "result": {
+    "status": "recorded"
+  },
+  "provenance": {
+    "producer": "urn:example:agent:reviewer",
+    "created_at": "2026-08-06T17:00:00Z"
+  },
+  "extensions": {}
+}

@@ -1,0 +1,41 @@
+{
+  "skp": "1.0-draft",
+  "id": "urn:uuid:44444444-4444-4444-8444-444444444444",
+  "profile": "urn:skp:profile:core",
+  "semantic_address": {
+    "space": "agent-task",
+    "coordinates": [
+      "swarm-7",
+      "task-12"
+    ]
+  },
+  "action": "reports",
+  "subject": {
+    "id": "urn:example:agent:builder",
+    "type": "agent"
+  },
+  "object": {
+    "id": "urn:example:task:12",
+    "type": "task"
+  },
+  "transition": {
+    "from": "running",
+    "to": "completed"
+  },
+  "reach": "local",
+  "payload": {
+    "media_type": "application/json",
+    "value": {
+      "confidence": 0.82
+    }
+  },
+  "result": {
+    "status": "completed",
+    "validation": "tests-passed"
+  },
+  "provenance": {
+    "producer": "urn:example:agent:reviewer",
+    "created_at": "2026-08-06T17:00:00Z"
+  },
+  "extensions": {}
+}
