@@ -1,4 +1,4 @@
-# Semantic State Protocol (SKP) Core Specification
+# Semantic State Protocol (SSP) Infrastructure
 
 **Version:** 1.0-draft  
 **Repository release:** 0.0.0-draft.00  
