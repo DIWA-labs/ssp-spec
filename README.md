@@ -9,9 +9,9 @@ The initial problem is simple: documents, source code, AI agents, workflows, sim
 ## Repository map
 
 - [`SPEC.md`](SPEC.md) — current working specification.
-- [`drafts/draft-gatapia-skp-core-00.md`](drafts/draft-gatapia-skp-core-00.md) — Internet-Draft-style core document.
-- [`drafts/draft-gatapia-skp-text-00.md`](drafts/draft-gatapia-skp-text-00.md) — provisional JSON text encoding.
-- [`drafts/draft-gatapia-skp-profiles-00.md`](drafts/draft-gatapia-skp-profiles-00.md) — profile mechanism.
+- [`drafts/draft-diwa-skp-core-00.md`](drafts/draft-diwa-skp-core-00.md) — Internet-Draft-style core document.
+- [`drafts/draft-diwa-skp-text-00.md`](drafts/draft-diwa-skp-text-00.md) — provisional JSON text encoding.
+- [`drafts/draft-diwa-skp-profiles-00.md`](drafts/draft-diwa-skp-profiles-00.md) — profile mechanism.
 - [`schemas/`](schemas/) — JSON Schemas for draft-00 packets and profiles.
 - [`examples/`](examples/) — examples for documents, code, agents, workflows, and simulations.
 - [`test-vectors/`](test-vectors/) — valid, invalid, canonicalization, and interoperability vectors.
