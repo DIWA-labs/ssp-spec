@@ -77,4 +77,4 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md), [`GOVERNANCE.md`](GOVERNANCE.md), and 
 
 ## License
 
-Repository source code and documentation are available under the MIT License. Standards bodies or publication streams may require separate contribution terms.
+Repository source code and documentation are available under the Apache License. Standards bodies or publication streams may require separate contribution terms.
