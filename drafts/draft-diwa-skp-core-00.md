@@ -1,7 +1,7 @@
 ---
 title: "Semantic State Protocol (SKP) Core Specification"
 abbrev: "SKP Core"
-docname: draft-gatapia-skp-core-00
+docname: draft-diwa-skp-core-00
 category: exp
 ipr: trust200902
 area: Applications and Real-Time
@@ -10,7 +10,7 @@ stand_alone: yes
 author:
   - ins: R. Gatapia
     name: Ramulus Gatapia
-    organization: Independent
+    organization: Diwa Research Labs
 date: 2026-08-06
 ---
 
