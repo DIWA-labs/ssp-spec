@@ -18,4 +18,4 @@ A packet can be syntactically valid but untrustworthy. Provenance preserves orig
 
 ## Why not embeddings?
 
-Embeddings are useful indexes but are model-dependent and not stable semantic identifiers. SKP may reference embeddings through profiles, but Core does not treat them as authoritative meaning.
+Embeddings are useful indexes but are model-dependent and not stable semantic identifiers. SSP may reference embeddings through profiles, but Core does not treat them as authoritative meaning.

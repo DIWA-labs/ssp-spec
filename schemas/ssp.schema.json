@@ -1,4 +1,4 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$ref": "skp-packet.schema.json"
+  "$ref": "ssp-packet.schema.json"
 }

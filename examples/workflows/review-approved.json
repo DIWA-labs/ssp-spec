@@ -1,7 +1,7 @@
 {
-  "skp": "1.0-draft",
+  "ssp": "1.0-draft",
   "id": "urn:uuid:55555555-5555-4555-8555-555555555555",
-  "profile": "urn:skp:profile:core",
+  "profile": "urn:ssp:profile:core",
   "semantic_address": {
     "space": "workflow",
     "coordinates": [

@@ -6,7 +6,7 @@
 
 ## 1. Abstract
 
-Semantic State Protocol (SKP) defines a transport-independent semantic envelope for exchanging references to identity, action, relationship, state transition, reach, payload, result, and provenance across heterogeneous systems. SKP does not replace documents, source code, workflow messages, databases, or application-specific kernels. It provides a common envelope that can accompany them.
+Semantic State Protocol (SSP) defines a transport-independent semantic envelope for exchanging references to identity, action, relationship, state transition, reach, payload, result, and provenance across heterogeneous systems. SSP does not replace documents, source code, workflow messages, databases, or application-specific kernels. It provides a common envelope that can accompany them.
 
 ## 2. Introduction
 
@@ -14,13 +14,13 @@ Modern systems exchange related information through incompatible representations
 
 Although these systems may refer to the same object, event, or decision, the relationship is frequently reconstructed through custom adapters or inferred from unstructured text. Identity can be lost when content moves between systems. State transitions may be recorded without their subject, cause, reach, or provenance. Agent messages may report a change without a durable link to the file, task, evidence, or runtime event that motivated it.
 
-SKP addresses this interoperability problem by defining a common semantic envelope. The envelope can identify the relevant semantic space, locate an object within that space, state an action or relationship, identify the subject and object, describe a transition, constrain its reach, carry an optional payload and result, and retain provenance.
+SSP addresses this interoperability problem by defining a common semantic envelope. The envelope can identify the relevant semantic space, locate an object within that space, state an action or relationship, identify the subject and object, describe a transition, constrain its reach, carry an optional payload and result, and retain provenance.
 
-SKP is complementary to existing serialization, transport, version-control, workflow, and knowledge-graph technologies. It does not prescribe storage, execution, reasoning, ontology, user interface, or transport behavior.
+SSP is complementary to existing serialization, transport, version-control, workflow, and knowledge-graph technologies. It does not prescribe storage, execution, reasoning, ontology, user interface, or transport behavior.
 
 ## 3. Terminology
 
-- **Packet:** One SKP envelope.
+- **Packet:** One SSP envelope.
 - **Producer:** A system that emits a packet.
 - **Consumer:** A system that reads a packet.
 - **Processor:** A producer, consumer, validator, forwarder, or transformer.
@@ -42,7 +42,7 @@ A draft-00 packet contains:
 
 | Field | Required | Meaning |
 |---|---:|---|
-| `skp` | yes | Protocol version identifier. |
+| `ssp` | yes | Protocol version identifier. |
 | `id` | yes | Globally unique packet identifier. |
 | `profile` | yes | Profile identifier. |
 | `semantic_address` | yes | Semantic space and ordered coordinates. |
@@ -61,7 +61,7 @@ A draft-00 packet contains:
 Draft-00 uses:
 
 ```json
-"skp": "1.0-draft"
+"ssp": "1.0-draft"
 ```
 
 A processor MUST reject a packet whose major version it does not support, unless operating in explicit pass-through mode. A pass-through processor MUST preserve the original packet bytes or all unknown fields.
@@ -80,7 +80,7 @@ Packet identity is distinct from subject and object identity.
 - require optional fields;
 - define extension namespaces;
 - define domain validation rules;
-- map an immutable external kernel specification into SKP without altering that kernel.
+- map an immutable external kernel specification into SSP without altering that kernel.
 
 ## 9. Semantic address
 
@@ -194,7 +194,7 @@ Processors SHOULD preserve unknown extensions.
 
 ## 18. Text serialization
 
-Draft-00 uses UTF-8 JSON. See `drafts/draft-gatapia-skp-text-00.md`.
+Draft-00 uses UTF-8 JSON. See `drafts/draft-gatapia-ssp-text-00.md`.
 
 ## 19. Validation
 
@@ -214,16 +214,16 @@ Profile validation occurs after Core validation.
 
 Draft-00 defines:
 
-- `SKP_REQUIRED_FIELD`
-- `SKP_UNSUPPORTED_VERSION`
-- `SKP_INVALID_URI`
-- `SKP_INVALID_ADDRESS`
-- `SKP_INVALID_ENTITY`
-- `SKP_INVALID_TRANSITION`
-- `SKP_INVALID_PAYLOAD`
-- `SKP_INVALID_PROVENANCE`
-- `SKP_INVALID_EXTENSIONS`
-- `SKP_PROFILE_VIOLATION`
+- `SSP_REQUIRED_FIELD`
+- `SSP_UNSUPPORTED_VERSION`
+- `SSP_INVALID_URI`
+- `SSP_INVALID_ADDRESS`
+- `SSP_INVALID_ENTITY`
+- `SSP_INVALID_TRANSITION`
+- `SSP_INVALID_PAYLOAD`
+- `SSP_INVALID_PROVENANCE`
+- `SSP_INVALID_EXTENSIONS`
+- `SSP_PROFILE_VIOLATION`
 
 ## 21. Security considerations
 
@@ -240,7 +240,7 @@ Signatures and trust policy are deferred to a separate profile.
 
 ## 22. Privacy considerations
 
-SKP packets can expose identity, relationships, actions, and provenance. Producers SHOULD minimize personal information, use pseudonymous identifiers when appropriate, and avoid global reach where a smaller scope is sufficient.
+SSP packets can expose identity, relationships, actions, and provenance. Producers SHOULD minimize personal information, use pseudonymous identifiers when appropriate, and avoid global reach where a smaller scope is sufficient.
 
 ## 23. IANA considerations
 
@@ -248,7 +248,7 @@ Draft-00 requests no IANA action.
 
 ## 24. Non-goals
 
-SKP Core does not define:
+SSP Core does not define:
 
 - AI reasoning;
 - embeddings;

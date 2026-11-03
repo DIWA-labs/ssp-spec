@@ -1,7 +1,7 @@
 [project]
-name = "skp-reference"
+name = "ssp-reference"
 version = "0.0.0"
-description = "Experimental SKP draft-00 reference implementation"
+description = "Experimental SSP draft-00 reference implementation"
 requires-python = ">=3.11"
 
 [build-system]

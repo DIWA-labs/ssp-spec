@@ -1,8 +1,8 @@
-# SKP Profile Mechanism — Draft 00
+# SSP Profile Mechanism — Draft 00
 
 ## Purpose
 
-SKP Core defines a shared envelope. Profiles define domain vocabularies and additional constraints.
+SSP Core defines a shared envelope. Profiles define domain vocabularies and additional constraints.
 
 ## Profile requirements
 
@@ -30,7 +30,7 @@ When a profile maps an immutable external kernel, it MUST:
 1. identify the kernel specification and version;
 2. treat kernel coordinates as opaque or exactly defined by that specification;
 3. avoid renaming axes or inventing additional axes;
-4. place application interpretation outside SKP Core;
+4. place application interpretation outside SSP Core;
 5. include round-trip vectors proving that encoding and decoding preserve the original kernel value.
 
 ## Compatibility

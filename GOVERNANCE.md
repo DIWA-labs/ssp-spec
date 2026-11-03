@@ -2,7 +2,7 @@
 
 ## Draft-00 governance
 
-Ramulus Gatapia is the initial editor of SKP draft-00. This role controls repository publication but does not make unreviewed implementation behavior normative.
+Ramulus Gatapia is the initial editor of SSP draft-00. This role controls repository publication but does not make unreviewed implementation behavior normative.
 
 ## Sources of authority
 
@@ -30,7 +30,7 @@ Protocol-affecting decisions are recorded in `discussions/` or a future `decisio
 
 ## Profiles
 
-Profiles may define domain vocabularies and constraints but MUST NOT reinterpret SKP Core fields. Immutable external kernels should be referenced by profile identifier and specification version rather than copied or redefined.
+Profiles may define domain vocabularies and constraints but MUST NOT reinterpret SSP Core fields. Immutable external kernels should be referenced by profile identifier and specification version rather than copied or redefined.
 
 ## Publication
 

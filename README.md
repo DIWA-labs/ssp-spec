@@ -1,17 +1,17 @@
-# Semantic State Protocol (SKP)
+# Semantic State Protocol (SSP)
 
 > **Status:** Experimental public draft. This repository is not an IETF standard and has not been assigned an RFC number.
 
-Semantic State Protocol (SKP) is a transport-independent semantic envelope for exchanging references to identity, action, relationship, transition, reach, payload, result, and provenance across heterogeneous systems.
+Semantic State Protocol (SSP) is a transport-independent semantic envelope for exchanging references to identity, action, relationship, transition, reach, payload, result, and provenance across heterogeneous systems.
 
-The initial problem is simple: documents, source code, AI agents, workflows, simulations, and knowledge systems frequently refer to the same underlying objects and events using incompatible internal representations. SKP provides a small shared envelope that can accompany existing content without replacing the content, storage system, or transport.
+The initial problem is simple: documents, source code, AI agents, workflows, simulations, and knowledge systems frequently refer to the same underlying objects and events using incompatible internal representations. SSP provides a small shared envelope that can accompany existing content without replacing the content, storage system, or transport.
 
 ## Repository map
 
 - [`SPEC.md`](SPEC.md) — current working specification.
-- [`drafts/draft-diwa-skp-core-00.md`](drafts/draft-diwa-skp-core-00.md) — Internet-Draft-style core document.
-- [`drafts/draft-diwa-skp-text-00.md`](drafts/draft-diwa-skp-text-00.md) — provisional JSON text encoding.
-- [`drafts/draft-diwa-skp-profiles-00.md`](drafts/draft-diwa-skp-profiles-00.md) — profile mechanism.
+- [`drafts/draft-diwa-ssp-core-00.md`](drafts/draft-diwa-ssp-core-00.md) — Internet-Draft-style core document.
+- [`drafts/draft-diwa-ssp-text-00.md`](drafts/draft-diwa-ssp-text-00.md) — provisional JSON text encoding.
+- [`drafts/draft-diwa-ssp-profiles-00.md`](drafts/draft-diwa-ssp-profiles-00.md) — profile mechanism.
 - [`schemas/`](schemas/) — JSON Schemas for draft-00 packets and profiles.
 - [`examples/`](examples/) — examples for documents, code, agents, workflows, and simulations.
 - [`test-vectors/`](test-vectors/) — valid, invalid, canonicalization, and interoperability vectors.
@@ -23,9 +23,9 @@ The initial problem is simple: documents, source code, AI agents, workflows, sim
 
 ```json
 {
-  "skp": "1.0-draft",
+  "ssp": "1.0-draft",
   "id": "urn:uuid:11111111-1111-4111-8111-111111111111",
-  "profile": "urn:skp:profile:core",
+  "profile": "urn:ssp:profile:core",
   "semantic_address": {
     "space": "document",
     "coordinates": ["manual.md", "section-2"]
@@ -60,7 +60,7 @@ The Python implementation validates the bundled examples using only the standard
 
 ## Design principles
 
-1. **Envelope, not replacement.** SKP accompanies existing content.
+1. **Envelope, not replacement.** SSP accompanies existing content.
 2. **Transport independence.** It may be stored in files, databases, messages, or event streams.
 3. **Profile separation.** Core syntax is independent of domain vocabularies.
 4. **Explicit provenance.** Producers and creation time can be retained.

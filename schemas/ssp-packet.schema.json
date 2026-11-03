@@ -1,11 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/skp/schema/skp-packet-draft-00.json",
+  "$id": "https://example.org/ssp/schema/ssp-packet-draft-00.json",
   "title": "Semantic State Protocol Packet - Draft 00",
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "skp",
+    "ssp",
     "id",
     "profile",
     "semantic_address",
@@ -16,7 +16,7 @@
     "extensions"
   ],
   "properties": {
-    "skp": {
+    "ssp": {
       "const": "1.0-draft"
     },
     "id": {

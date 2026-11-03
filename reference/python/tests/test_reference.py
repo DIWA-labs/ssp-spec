@@ -7,7 +7,7 @@ HERE = Path(__file__).resolve()
 ROOT = HERE.parents[3]
 sys.path.insert(0, str(HERE.parents[1]))
 
-from skp import SkpError, canonical_json, validate_packet
+from ssp import SspError, canonical_json, validate_packet
 
 class ReferenceTests(unittest.TestCase):
     def test_valid_examples(self):
@@ -21,7 +21,7 @@ class ReferenceTests(unittest.TestCase):
         vectors = json.loads((base / "index.json").read_text())
         for vector in vectors:
             packet = json.loads((base / vector["input"]).read_text())
-            with self.assertRaises(SkpError) as ctx:
+            with self.assertRaises(SspError) as ctx:
                 validate_packet(packet)
             self.assertEqual(vector["error"], ctx.exception.code)
 

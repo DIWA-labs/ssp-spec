@@ -1,4 +1,4 @@
-# SKP JSON Text Encoding — Draft 00
+# SSP JSON Text Encoding — Draft 00
 
 ## Status
 
@@ -10,7 +10,7 @@ Packets are encoded as UTF-8 JSON objects.
 
 ## Required object keys
 
-`skp`, `id`, `profile`, `semantic_address`, `action`, `subject`, `reach`, `provenance`, and `extensions`.
+`ssp`, `id`, `profile`, `semantic_address`, `action`, `subject`, `reach`, `provenance`, and `extensions`.
 
 ## Parser requirements
 
@@ -38,4 +38,4 @@ Because cross-language numeric formatting may differ, profiles requiring signatu
 
 ## Media type
 
-No media type registration is requested in draft-00. Implementations MAY use `application/json` with an out-of-band SKP profile declaration.
+No media type registration is requested in draft-00. Implementations MAY use `application/json` with an out-of-band SSP profile declaration.

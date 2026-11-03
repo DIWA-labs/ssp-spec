@@ -1,7 +1,7 @@
 ---
-title: "Semantic State Protocol (SKP) Core Specification"
-abbrev: "SKP Core"
-docname: draft-diwa-skp-core-00
+title: "Semantic State Protocol (SSP) Core Specification"
+abbrev: "SSP Core"
+docname: draft-diwa-ssp-core-00
 category: exp
 ipr: trust200902
 area: Applications and Real-Time
@@ -16,7 +16,7 @@ date: 2026-08-06
 
 # Abstract
 
-Semantic State Protocol (SKP) defines a transport-independent semantic envelope for exchanging references to identity, action, relationship, transition, reach, payload, result, and provenance across heterogeneous systems. It is designed to accompany existing documents, source code, workflow messages, agent communication, simulation events, and knowledge objects without replacing their native formats.
+Semantic State Protocol (SSP) defines a transport-independent semantic envelope for exchanging references to identity, action, relationship, transition, reach, payload, result, and provenance across heterogeneous systems. It is designed to accompany existing documents, source code, workflow messages, agent communication, simulation events, and knowledge objects without replacing their native formats.
 
 # Status of This Memo
 
@@ -28,7 +28,7 @@ Modern software systems exchange related information through incompatible repres
 
 These representations often refer to the same underlying object, event, or decision, but identity, transition, reach, and provenance are lost or reconstructed through custom adapters.
 
-SKP defines a common semantic envelope. It does not prescribe storage, transport, execution, ontology, AI reasoning, or user-interface behavior.
+SSP defines a common semantic envelope. It does not prescribe storage, transport, execution, ontology, AI reasoning, or user-interface behavior.
 
 # 2. Conventions and Terminology
 
@@ -51,7 +51,7 @@ As the number of systems grows, the number of translations and opportunities for
 
 # 4. Design Goals
 
-SKP is intended to be:
+SSP is intended to be:
 
 - transport-independent;
 - implementation-neutral;
@@ -63,7 +63,7 @@ SKP is intended to be:
 
 # 5. Non-Goals
 
-SKP Core does not define:
+SSP Core does not define:
 
 - domain ontologies;
 - AI reasoning;
@@ -76,7 +76,7 @@ SKP Core does not define:
 
 # 6. Abstract Data Model
 
-An SKP packet consists of:
+An SSP packet consists of:
 
 - protocol version;
 - packet identifier;

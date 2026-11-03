@@ -2,12 +2,12 @@
 
 Potential companion documents:
 
-- SKP canonical JSON encoding.
-- SKP binary encoding.
-- SKP integrity and signatures.
-- SKP registry policy.
-- SKP evidence profile.
-- SKP software-artifact profile.
-- SKP agent-task profile.
-- SKP simulation-event profile.
-- SKP immutable-kernel profile rules.
+- SSP canonical JSON encoding.
+- SSP binary encoding.
+- SSP integrity and signatures.
+- SSP registry policy.
+- SSP evidence profile.
+- SSP software-artifact profile.
+- SSP agent-task profile.
+- SSP simulation-event profile.
+- SSP immutable-kernel profile rules.

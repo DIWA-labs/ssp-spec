@@ -1,16 +1,16 @@
 # FAQ
 
-## Is SKP an RFC?
+## Is SSP an RFC?
 
 No. This repository contains an experimental draft.
 
-## Is SKP part of LIK or DIWA?
+## Is SSP part of LIK or DIWA?
 
-SKP is presented as an independent protocol. LIK and DIWA may implement profiles or serve as reference implementations.
+SSP is presented as an independent protocol. LIK and DIWA may implement profiles or serve as reference implementations.
 
-## Does SKP replace JSON, RDF, Git, or HTTP?
+## Does SSP replace JSON, RDF, Git, or HTTP?
 
-No. SKP is an envelope that may be serialized with JSON, transported over HTTP, linked to Git objects, or mapped into graph systems.
+No. SSP is an envelope that may be serialized with JSON, transported over HTTP, linked to Git objects, or mapped into graph systems.
 
 ## Does Core define DNL, TAO, VNF, or AWSP?
 

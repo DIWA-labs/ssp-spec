@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/skp/schema/skp-profile-draft-00.json",
-  "title": "SKP Profile Description - Draft 00",
+  "$id": "https://example.org/ssp/schema/ssp-profile-draft-00.json",
+  "title": "SSP Profile Description - Draft 00",
   "type": "object",
   "additionalProperties": false,
   "required": [

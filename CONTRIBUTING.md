@@ -1,13 +1,13 @@
-# Contributing to SKP
+# Contributing to SSP
 
-SKP is an experimental protocol. Contributions should improve interoperability without silently expanding the meaning of the core.
+SSP is an experimental protocol. Contributions should improve interoperability without silently expanding the meaning of the core.
 
 ## Ways to contribute
 
 - Report ambiguity or contradictions.
 - Add valid and invalid test vectors.
 - Implement an independent parser.
-- Propose a profile without modifying SKP Core.
+- Propose a profile without modifying SSP Core.
 - Identify security, privacy, or canonicalization defects.
 - Provide interoperability reports from two independent implementations.
 
@@ -16,7 +16,7 @@ SKP is an experimental protocol. Contributions should improve interoperability w
 1. Open an issue before making a protocol-breaking pull request.
 2. Distinguish editorial changes from semantic changes.
 3. Add or update test vectors for every normative change.
-4. Do not redefine application-specific kernels in SKP Core.
+4. Do not redefine application-specific kernels in SSP Core.
 5. Preserve unknown extension fields unless the specification explicitly permits dropping them.
 6. Mark unresolved design questions as `OPEN ISSUE`; do not conceal them behind implementation behavior.
 7. Include validation evidence in the pull request description.
