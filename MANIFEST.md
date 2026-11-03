@@ -19,9 +19,9 @@
 - `docs/protocol-design.md`
 - `docs/rationale.md`
 - `docs/terminology.md`
-- `drafts/draft-gatapia-ssp-core-00.md`
-- `drafts/draft-gatapia-ssp-profiles-00.md`
-- `drafts/draft-gatapia-ssp-text-00.md`
+- `drafts/draft-diwa-ssp-core-00.md`
+- `drafts/draft-diwa-ssp-profiles-00.md`
+- `drafts/draft-diwa-ssp-text-00.md`
 - `examples/.gitkeep`
 - `examples/ai-agents/completion-report.json`
 - `examples/basic/basic-packet.json`
@@ -38,10 +38,7 @@
 - `reference/python/README.md`
 - `reference/python/pyproject.toml`
 - `reference/python/ssp/__init__.py`
-- `reference/python/ssp/__pycache__/__init__.cpython-313.pyc`
-- `reference/python/ssp/__pycache__/core.cpython-313.pyc`
 - `reference/python/ssp/core.py`
-- `reference/python/tests/__pycache__/test_reference.cpython-313.pyc`
 - `reference/python/tests/test_reference.py`
 - `reference/rust/Cargo.toml`
 - `reference/rust/README.md`

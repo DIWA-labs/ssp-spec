@@ -2,7 +2,7 @@
 
 ## Draft-00 governance
 
-Ramulus Gatapia is the initial editor of SSP draft-00. This role controls repository publication but does not make unreviewed implementation behavior normative.
+DIWA Research Labs maintains and publishes SSP draft-00. Editorial stewardship does not make unreviewed implementation behavior normative.
 
 ## Sources of authority
 

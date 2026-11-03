@@ -194,7 +194,7 @@ Processors SHOULD preserve unknown extensions.
 
 ## 18. Text serialization
 
-Draft-00 uses UTF-8 JSON. See `drafts/draft-gatapia-ssp-text-00.md`.
+Draft-00 uses UTF-8 JSON. See `drafts/draft-diwa-ssp-text-00.md`.
 
 ## 19. Validation
 

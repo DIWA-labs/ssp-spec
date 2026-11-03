@@ -8,9 +8,8 @@ area: Applications and Real-Time
 workgroup: Independent Submission
 stand_alone: yes
 author:
-  - ins: R. Gatapia
-    name: Ramulus Gatapia
-    organization: Diwa Research Labs
+  - name: DIWA Research Labs
+    organization: DIWA Research Labs
 date: 2026-08-06
 ---
 
